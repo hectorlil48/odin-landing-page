@@ -29,7 +29,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 80px;
 }
 
 .logo {
@@ -54,9 +53,12 @@ body {
   font-size: inherit;
 }
 
+/* Hero Section */
+
 .hero-section {
   display: flex;
-  gap: 30px;
+  gap: 40px;
+  margin: 80px 0;
 }
 
 .title {
@@ -67,4 +69,16 @@ body {
 
 .description {
   margin: 10px 0;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 8px;
 }
